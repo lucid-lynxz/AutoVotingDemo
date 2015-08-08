@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=gbk">
+<meta charset="gb2312">
+<meta name="viewport" content="width=device-width" initial-scale="1" user-scalable="no;"><meta content="&lt;TRS_CHANNEL id=OWNER autolink=false field=CHNLDESC&gt;频道名称&lt;/TRS_CHANNEL&gt;" name="keywords">
+<meta content="&lt;TRS_CHANNEL id=OWNER autolink=false field=CHNLDESC&gt;频道名称&lt;/TRS_CHANNEL&gt;" name="description">
+<title>文艺展播搜索结果_凯风网手机版</title>
+
+<style type="text/css">
+@charset "utf-8";
+/* CSS Document */
+body { margin:0 auto; padding:0;font-family:\5FAE\8F6F\96C5\9ED1,\9ED1\4F53; font-size:18px;webkit-text-size-adjust:none; background:#fff;min-width:320px; max-width:640px;  }
+div, form, input, select, ul, ol, li, p, h1, h2, h3, h4, h5, h6, p, dd, dt, dl { margin:0; padding:0;font-size:100% }
+ul, ol, li { list-style:none}
+img{border:0;}
+a{ color:#020000; text-decoration:none}
+a:hover{ text-decoration:underline}
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;height:0px;}
+.clear{clear:both;height:0px;}
+.clearfix:after{content:".";visibility:hidden;display:block;clear:both;height:0;}
+.clearfix{*zoom:1;}
+
+a.logo,.r_btn,span#p1,span#p2,span#p3,.eye_box,.heart_box { background:url(http://www.kaiwind.com/images/cast/images/spriteiconsj.png) no-repeat;} 
+
+.banner { width:100%; background:#eee; height:45px; }
+a.logo{ background-position:0 -140px; display:block; float:left; margin-top:4px; width:58px; height:40px; margin-left:10px; }
+.banner .sousuozi { color:#fff; margin-top:14px; line-height:40px; font-size:18px; margin-right:6.25%; }
+.banner .daohang { width:27%; margin-left:10%; color:#000; line-height:51px; font-size:18px; position:relative;}
+.banner .daohang .btn_dh { text-indent:8%;}
+.banner .daohang .box_dh { position:absolute; background:#ffa800; width:100%;z-index:10000; display:none;}
+.box_dh ul li { line-height:30px; text-indent:8%;}
+.box_dh a { color:#fff;}
+.banner img { margin-left:10%}
+a.shouye { display:block; float:right; padding:13px 20px 0 0;}
+
+.ss { width:100%; margin:0 auto; background:#ff9c00; height:33px;}
+.huixian { height:5px; background:#cacaca;}
+.search{ position:relative; padding:1px; background:#fff; z-index:100; margin:3px auto;width:298px;}
+.btn_nr,.btn_ly { text-align:center; background:#288ad7; color:#fff; height:20px; display:block;width:50px; line-height:20px; margin-right:1px; float:left; cursor:pointer; font-size:12px}
+.btn_ly { background:#ededed; color:#999;}
+.txt{width:145px;height: 20px;float: left;display: block; line-height:20px;text-indent:12px; color:#999; border:none; font-size:12px;}
+.r_btn{width: 51px;height: 20px;background-position:0 -28px;border: none;cursor: pointer;float: left;display: block;}
+.shengshi { display:none; background:#fff; position:absolute; top:25px; left:62px; width:240px}
+.shengshi li { width:60px; line-height:24px; text-align:center; float:left; cursor:pointer; font-size:12px;}
+.shengshi li.cur { background:#fea700; color:#fff;} 
+
+.jiemulan { position:relative; height:40px; width:100%; background:#eee; overflow:hidden; border-bottom:2px #cacaca solid; }
+.jiemulan ul { position:absolute;}
+.jiemulan ul li { float:left; text-align:center;}
+.jiemulan ul li a { color:#000; font-size:16px; line-height:40px;}
+
+.wrap { width:96%; background:#fff; padding:0 2%; margin-top:20px;}
+.wrap ul {width:100%;}
+.wrap ul li { width:47%; margin-top:20px; float:left; background:#fff; border:#ddd 2px solid; margin-left:1.2%;}
+.wrap ul li img { width:100%; height:100px;}
+.wrap ul li p.title{ font-size:14px; width:95%; line-height:24px; height:24px; display:block; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;  white-space: nowrap; margin-left:5px; }
+.wrap ul li p.title a{ display:block;overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis; white-space: nowrap;}
+.wrap ul li p.zyjz { font-size:12px; width:95%; line-height:18px; height:36px; overflow:hidden; margin-left:5px; color:#999;}
+.wrap ul li p.kaifengzei { color:#999; line-height:26px; margin-left:5px; font-size:10px;} 
+.eye_box { background-position:0 -95px; color:#ac8740; line-height:12px; text-indent:33px; font-size:12px;}
+.heart_box { background-position:0 -117px; margin-left:25px; color:#ac8740; line-height:12px; text-indent:33px; font-size:12px;}
+.heart_box b { font-weight:500; }
+.wrap .tit { font-size:16px}
+.wrap .tit span { font-size:18px; color:#288ad7;font-weight:bold; padding: 0 7px;}
+.list { width:100%; position:relative; margin:0 auto; }
+.etp{ font-size:16px; line-height:30px; text-align:center; color:#288ad7; margin:0 auto;}
+.bottom_box{ margin:5px 0 5px 5px; }
+
+.pclink { border-bottom:2px #f2f2f2 solid; text-align:center; line-height:34px; font-size:10px; background:#fff;}
+.pclink a { color:#666;}
+.pclink img { width:5%; margin-top:20px;}
+.bottom { width:100%; margin:0 auto; text-align:center;background:#fff; font-size:16px; line-height:28px; color:#666; }
+.bottom a { color:#666;}
+
+.box_tp { position:fixed; top:0%; left:50%; padding:10px; width:300px; height:304px; margin:0px 0 0 -160px; background:#fff; display:none; z-index:101;background:rgba(220,220,220,0.3);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4cdcdcdc,endColorstr=#4cdcdcdc);zoom:1;}
+:root box_tp{filter:none\9;}/*for IE9*/
+.box_toupiao { position:relative; width:300px; height:294px; background:#fff; padding-top:10px;}
+.box_toupiao p.gb { text-align:right; margin-right:20px; cursor:pointer; background:#fff; font-size:13px; }
+.box_toupiao p.gb b{ font-weight:bold; color:#000; font-size:16px;}
+.box_toupiao p.title { color:#000; font-size:16px; line-height:24px; margin-left:20px; height:28px; width:260px; border-bottom:2px #e2e2e2 solid;}
+.box_toupiao p.shuoming { color:#999; font-size:12px; line-height:18px; width:260px; margin-left:20px; }
+#selnw { width:62px ;height: 24px; border:1px solid #e0e0e0; margin-left:20px; margin-top:10px; text-indent:7px; font-size:14px; color:#fff; line-height:24px; float:left; background:#ffa800 url(http://www.kaiwind.com/images/cast/images/jjj.png) no-repeat 50px 10px; cursor:pointer;}
+.pn{ width: 182px;height:24px;border:1px solid #e0e0e0;display: block; margin-left:5px; margin-top:10px; text-indent:10px; font-size:14px; color:#999; line-height:24px; float:left; cursor:pointer}
+#guojia { width:46px ;height:24px; border:1px solid #e0e0e0; text-indent:7px; font-size:14px; color:#fff; line-height:24px; background:#ffa800 url(http://www.kaiwind.com/images/cast/images/jjj.png) no-repeat 35px 10px; cursor:pointer; position:absolute; top:251px; left:85px; display:none;}
+.selnwul { width:62px ;height: 40px; border:1px solid #e0e0e0;border-top:0px; text-align:center;  position:absolute; display:block; top:276px; left:20px; display:none; background:#fff;}
+.selnwul li { font-size:14px; color:#999; line-height:20px; cursor:pointer }
+.selnwul li.on { font-size:14px; color:#ffa800; line-height:24px; background:#f1f1f1; }
+p.xinghao { color:#ff0000; position:absolute; right:14px; bottom:41px; }
+.jiahao { color:#999; position:absolute; display:none; font-size:14px; left:172px; top:254px; width:14px;}
+.quhao { height:24px;border:1px solid #e0e0e0; width:36px; line-height:24px; font-size:14px; display:none; text-align:center; position:absolute; left:135px; top:251px; color:#999;}
+.box_toupiao .dt{ width:300px; height:284px; position:absolute;top:0;left:0; background:#fff; display:none;}
+.box_toupiao .dt li{ display:block; float:left;word-wrap:break-word; word-spacing:normal; padding:1px 4px; margin-left:5px; margin-bottom:5px; line-height:18px; border:1px solid #999; cursor:pointer; font-size:13px; color:#999; word-break:break-all; white-space:nowrap;}
+.box_toupiao .dt li.on { color:#fff; background:#ffa800; }
+.guojiaul {width:273px; height:230px; display:block;  margin-left:25px; overflow:scroll;overflow-x:hidden; }
+p.gjgb { text-align:right; margin-right:20px; cursor:pointer; line-height:24px; background:#fff; float:right; width:42px; height:24px;border-bottom:3px #288ad7 solid; margin-bottom:10px;padding-top:9px; font-size:13px;}
+p.gjgb b{ font-weight:bold; color:#000; font-size:16px;}
+p.gjtitle {  font-size:14px; line-height:24px; margin-left:20px; height:24px; width:218px; border-bottom:3px #288ad7 solid; float:left;padding-top:9px;}
+#btn_tj { line-height:24px; background:#57a5e3; width:60px; color:#fff; display:block; text-align:center; margin:0px 0px 0px 213px; cursor:pointer; margin-bottom:10px; }
+
+.zz{ position:absolute;opacity:0.6; background:#999; top:0px; left:0px; z-index:1;}
+b.xinjiaone { color:#fff;font-size:12px; opacity:0.3; display:none;}
+.box_list { position:relative; width:100%; margin:0 auto;}
+.box_list_zz{ position:absolute; top:0px; background:#fcfcfc; opacity:0.6; width:100%; height:490px}
+.box_list_zz img{ display:block; margin:200px auto 0}
+</style>
+
+<script type="text/javascript" src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/index_6352.js" charset="utf-8" ignoreapd="1"></script>
+<script type="text/javascript" src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/voteall.js" charset="gbk" ignoreapd="1"></script>
+<script type="text/javascript" src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/jquery.js" ignoreapd="1"></script>
+
+</head>
+<body>
+<!--banner-->
+<div class="banner clearfix">
+ <!--导航-->
+  <a class="logo" href="http://wap.kaiwind.com/"></a>
+<!--导航-->
+ <div class="daohang fl">
+  <div class="btn_dh">
+  导航
+  <img id="btn_imgdh" src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/jiantousj.png" ignoreapd="1">
+  </div>
+  <div class="box_dh">
+  <ul class="hddh">
+			<li><a href="http://116.213.200.40/wyzbwap/">展播首页</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/gq">歌曲</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/wd/">舞蹈</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/xs/">相声</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/xp/">小品</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/kb/">快板</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/dfqy/">地方曲艺</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/dfxj/">地方戏剧</a></li>
+            <li><a href="http://116.213.200.40/wyzbwap/dfhj/">地方话剧</a></li>
+			<li><a href="http://116.213.200.40/wyzbwap/qt/">其他</a></li>
+  </ul>
+  </div>
+ </div>
+ <a class="shouye" href="http://116.213.200.40/wyzbwap/">首页</a>
+</div>
+<!--搜索栏-->
+    <div class="ss">
+	    <div class="huixian"></div>
+		<div class="search clearfix">
+		<div class="btn_nr">按内容</div>
+		<div class="btn_ly">按来源</div>
+
+		<input class="txt" id="searchword" value="请输入关键词" accept-charset="utf-8" onblur="if(this.value==''){this.value='请输入关键词'}" onfocus="if(this.value == '请输入关键词'){this.value=''}" type="text">
+        <div class="r_btn">
+		</div>
+
+				<ul class="shengshi"><li>北京</li><li>天津</li><li>河北</li><li>山西</li><li>内蒙古</li><li>辽宁</li><li>吉林</li><li>黑龙江</li><li>上海</li><li>江苏</li><li>浙江</li><li>安徽</li><li>福建</li><li>江西</li><li>山东</li><li>河南</li><li>湖北</li><li>湖南</li><li>广东</li><li>广西</li><li>海南</li><li>重庆</li><li>四川</li><li>贵州</li><li>云南</li><li>西藏</li><li>陕西</li><li>甘肃</li><li>青海</li><li>宁夏</li><li>新疆</li><li>新疆兵团</li></ul>
+    </div>
+	</div>
+
+<!--节目栏-->
+<div class="jiemulan clearfix">
+ <ul style="width: 250%;" id="hddh">
+			<li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/">展播首页</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/gq">歌曲</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/wd/">舞蹈</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/xs/">相声</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/xp/">小品</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/kb/">快板</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/dfqy/">地方曲艺</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/dfxj/">地方戏剧</a></li>
+            <li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/dfhj/">地方话剧</a></li>
+			<li style="width: 10%;"><a href="http://116.213.200.40/wyzbwap/qt/">其他</a></li>
+ </ul>
+</div>
+
+<!--results-->
+<div class="wrap">
+<div class="tit">
+搜索<span class=".pd">福建</span>结果
+</div>
+<div class="list">
+	<ul style="display: block;" class="clearfix"><li rel="14" id="a13"><a target="_blank" href="http://116.213.200.40/wyzbwap/gq/201507/13/t20150713_2626652.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713644155364328.jpg"></a>    <p href="./gq/201507/13/t20150713_2626652.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/gq/201507/13/t20150713_2626652.shtml">反邪教活动山歌</a></p><p class="zyjz">以山歌的形式宣传反邪教。</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">8904</span><span rel="14" class="heart_box fl"><b>3063</b><b class="xinjiaone">+1</b></span></div></li><li rel="162" id="e37"><a target="_blank" href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626815.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713651171315067.jpg"></a>    <p href="./kb/201507/13/t20150713_2626815.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626815.shtml">远离邪教 幸福可靠</a></p><p class="zyjz">采用建瓯通俗易懂的白话方言讲述宗教与邪教的区...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">3869</span><span rel="162" class="heart_box fl"><b>3843</b><b class="xinjiaone">+1</b></span></div></li><li rel="313" id="i42"><a target="_blank" href="http://116.213.200.40/wyzbwap/qt/201507/13/t20150713_2627000.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713659019617478.jpg"></a>    <p href="./qt/201507/13/t20150713_2627000.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/qt/201507/13/t20150713_2627000.shtml">希望</a></p><p class="zyjz">作品以音乐、舞蹈和诗歌朗诵的形式，讲述少女阳...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">2936</span><span rel="313" class="heart_box fl"><b>1638</b><b class="xinjiaone">+1</b></span></div></li><li rel="148" id="e50"><a target="_blank" href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626829.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713651193067927.jpg"></a>    <p href="./kb/201507/13/t20150713_2626829.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626829.shtml">邪教危害实在多</a></p><p class="zyjz">揭露法轮功“圆满”上天国、全能神“世界末日”...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">2881</span><span rel="148" class="heart_box fl"><b>1853</b><b class="xinjiaone">+1</b></span></div></li><li rel="4" id="a23"><a target="_blank" href="http://116.213.200.40/wyzbwap/gq/201507/13/t20150713_2626662.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713644177299318.jpg"></a>    <p href="./gq/201507/13/t20150713_2626662.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/gq/201507/13/t20150713_2626662.shtml">畲家人不信邪</a></p><p class="zyjz">唱畲歌是罗源县畲族特有的表演形式，该节目以畲...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">1714</span><span rel="4" class="heart_box fl"><b>875</b><b class="xinjiaone">+1</b></span></div></li><li rel="83" id="d50"><a target="_blank" href="http://116.213.200.40/wyzbwap/xp/201507/13/t20150713_2626748.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713648155715109.jpg"></a>    <p href="./xp/201507/13/t20150713_2626748.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/xp/201507/13/t20150713_2626748.shtml">归途</a></p><p class="zyjz">作品讲述了一位法轮功人员阿昆刑释解教后，街道...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">1255</span><span rel="83" class="heart_box fl"><b>2761</b><b class="xinjiaone">+1</b></span></div></li><li rel="146" id="e52"><a target="_blank" href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626831.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713651195814787.jpg"></a>    <p href="./kb/201507/13/t20150713_2626831.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/kb/201507/13/t20150713_2626831.shtml">回归社会</a></p><p class="zyjz">以对口快板形式，通过典型案例，揭批全能神邪教...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">1046</span><span rel="146" class="heart_box fl"><b>2535</b><b class="xinjiaone">+1</b></span></div></li><li rel="40" id="c15"><a target="_blank" href="http://116.213.200.40/wyzbwap/xs/201507/13/t20150713_2626696.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713647272346037.jpg"></a>    <p href="./xs/201507/13/t20150713_2626696.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/xs/201507/13/t20150713_2626696.shtml">教徒轶事</a></p><p class="zyjz">贾某修炼法轮功多年，醒悟后悔恨当初听信“有病...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">830</span><span rel="40" class="heart_box fl"><b>488</b><b class="xinjiaone">+1</b></span></div></li><li rel="281" id="g17"><a target="_blank" href="http://116.213.200.40/wyzbwap/dfxj/201507/13/t20150713_2626950.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713657728269197.jpg"></a>    <p href="./dfxj/201507/13/t20150713_2626950.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/dfxj/201507/13/t20150713_2626950.shtml">迷途当知返</a></p><p class="zyjz">阿龙妻子阿兰因沉迷全能神邪教而离家出走，阿兰...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">603</span><span rel="281" class="heart_box fl"><b>886</b><b class="xinjiaone">+1</b></span></div></li><li rel="132" id="d1"><a target="_blank" href="http://116.213.200.40/wyzbwap/xp/201507/13/t20150713_2626699.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713648085949566.jpg"></a>    <p href="./xp/201507/13/t20150713_2626699.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/xp/201507/13/t20150713_2626699.shtml">单线联系</a></p><p class="zyjz">视频通过对“全能神”邪教典型案例的改编，以小...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">498</span><span rel="132" class="heart_box fl"><b>262</b><b class="xinjiaone">+1</b></span></div></li><li rel="237" id="f43"><a target="_blank" href="http://116.213.200.40/wyzbwap/dfqy/201507/13/t20150713_2626889.shtml"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/W020150713653868891043.jpg"></a>    <p href="./dfqy/201507/13/t20150713_2626889.shtml" class="title"><a href="http://116.213.200.40/wyzbwap/dfqy/201507/13/t20150713_2626889.shtml">反对邪教齐宣传</a></p><p class="zyjz">一位转化后的原法轮功练习者，加入反邪教宣传队...</p><p class="kaifengzei"><font color="red">福建</font></p><div class="bottom_box clearfix"><span class="eye_box fl">120</span><span rel="237" class="heart_box fl"><b>211</b><b class="xinjiaone">+1</b></span></div></li></ul>
+</div>
+</div>
+
+<!--Pclink-->
+<div class="pclink">
+  <a href="http://116.213.200.40/wyzb" target="_blank"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/fxj_pclink.jpg" ignoreapd="1"></a>
+  <a href="http://116.213.200.40/wyzb" target="_blank">查看电脑版</a>
+</div>
+<!--bottom-->
+<div class="bottom">
+		<a target="_blank" href="http://www.kaiwind.com/about/200707/25/t20070725_816881.htm">关于我们</a> －
+		<a target="_blank" href="mailto:editor@kaiwind.com">编辑信箱</a><br>
+		凯风网版权所有
+		<a target="_blank" href="http://www.miibeian.gov.cn/">京ICP备14016129号</a><br>
+        <script src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/stat.js" language="JavaScript" charset="gb2312"></script><script src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/core.js" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=199524" target="_blank" title="站长统计"><img src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/pic1.gif" vspace="0" border="0" hspace="0"></a>
+        <div style="display:none;"> 
+			<script type="text/javascript">
+				var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8347c7676f3e7e8ce0e1a67b41d672ea' type='text/javascript'%3E%3C/script%3E"));
+			</script><script src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/h.js" type="text/javascript"></script><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="HolmesIcon1438944293" width="20" height="20"><param name="movie" value="http://eiv.baidu.com/hmt/icon/11.swf"><param name="flashvars" value="s=http://tongji.baidu.com/hm-web/welcome/ico?s=8347c7676f3e7e8ce0e1a67b41d672ea"><param name="allowscriptaccess" value="always"><embed type="application/x-shockwave-flash" name="HolmesIcon1438944293" src="%E6%96%87%E8%89%BA%E5%B1%95%E6%92%AD%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C_%E5%87%AF%E9%A3%8E%E7%BD%91%E6%89%8B%E6%9C%BA%E7%89%88_files/11.swf" flashvars="s=http://tongji.baidu.com/hm-web/welcome/ico?s=8347c7676f3e7e8ce0e1a67b41d672ea" allowscriptaccess="always" width="20" height="20"></object> 
+		</div>
+</div>
+
+<div class="box_tp">
+<div class="box_toupiao">
+<p class="gb">关闭<b>×</b></p>
+<p class="title">参与抽奖</p>
+<p class="shuoming">1.展播期间，每天从未得奖网友中随机抽取5个手机号码，各奖励价值100元的京东卡。展播结束后，从未得奖的
+网友中再随机抽取3个大奖，各奖励价值3000元的京东卡。同时，还将根据最高票数的情况，评选出每个类别中网友最喜爱的节目，并奖励制作单位价值
+2000元京东卡。</p>
+<p class="shuoming">2.活动期间，网友需保持通讯畅通。无法联系的，以及主动放弃获奖的网友，均视为放弃获奖资格。</p>
+<p class="shuoming">3.每个节目一个手机号只能投票一次。</p>
+<div id="selnw">国内号</div>
+<div id="guojia">国家</div>
+<input class="pn" name="pn" value="18965866666" onblur="if(this.value==''){this.value='手机号'}" onfocus="if(this.value == '手机号'){this.value=''}" type="text">
+<p class="xinghao">*</p>
+<p class="jiahao">+</p>
+<p class="quhao">0000</p>
+<ul class="selnwul">
+<li class="on sel">国内号</li>
+<li>国外号</li>
+</ul>
+<div class="dt">
+<p class="gjgb">关闭<b>×</b></p>
+<p class="gjtitle">请选择国家</p>
+<div class="clear"></div>
+<ul class="clearfix guojiaul">
+<li>安哥拉<span>244</span></li>
+<li>阿富汗<span>93</span></li>
+<li>阿尔巴尼亚<span>355</span></li>
+<li>阿尔及利亚<span>213</span></li>
+<li>安道尔共和国<span>376</span></li>
+<li>安圭拉岛<span>1264</span></li>
+<li>安提瓜和巴布达<span>1268</span></li>
+<li>阿根廷<span>54</span></li>
+<li>亚美尼亚<span>374</span></li>
+<li>阿森松<span>247</span></li>
+<li>澳大利亚<span>61</span></li>
+<li>奥地利<span>43</span></li>
+<li>阿塞拜疆<span>994</span></li>
+<li>巴哈马<span>1242</span></li>
+<li>巴林<span>973</span></li>
+<li>孟加拉国<span>880</span></li>
+<li>巴巴多斯<span>1246</span></li>
+<li>白俄罗斯<span>375</span></li>
+<li>比利时<span>32</span></li>
+<li>伯利兹<span>501</span></li>
+<li>贝宁<span>229</span></li>
+<li>百慕大群岛<span>1441</span></li>
+<li>玻利维亚<span>591</span></li>
+<li>博茨瓦纳<span>267</span></li>
+<li>巴西<span>55</span></li>
+<li>文莱<span>673</span></li>
+<li>保加利亚<span>359</span></li>
+<li>布基纳法索<span>226</span></li>
+<li>缅甸<span>95</span></li>
+<li>布隆迪<span>257</span></li>
+<li>喀麦隆<span>237</span></li>
+<li>加拿大<span>1</span></li>
+<li>开曼群岛<span>1345</span></li>
+<li>中非共和国<span>236</span></li>
+<li>乍得<span>235</span></li>
+<li>智利<span>56</span></li>
+<li>哥伦比亚<span>57</span></li>
+<li>刚果<span>242</span></li>
+<li>库克群岛<span>682</span></li>
+<li>哥斯达黎加<span>506</span></li>
+<li>古巴<span>53</span></li>
+<li>塞浦路斯<span>357</span></li>
+<li>捷克<span>420</span></li>
+<li>丹麦<span>45</span></li>
+<li>吉布提<span>253</span></li>
+<li>多米尼加共和国<span>1890</span></li>
+<li>厄瓜多尔<span>593</span></li>
+<li>埃及<span>20</span></li>
+<li>萨尔瓦多<span>503</span></li>
+<li>爱沙尼亚<span>372</span></li>
+<li>埃塞俄比亚<span>251</span></li>
+<li>斐济<span>679</span></li>
+<li>芬兰<span>358</span></li>
+<li>法国<span>33</span></li>
+<li>法属圭亚那<span>594</span></li>
+<li>加蓬<span>241</span></li>
+<li>冈比亚<span>220</span></li>
+<li>格鲁吉亚<span>995</span></li>
+<li>德国<span>49</span></li>
+<li>加纳<span>233</span></li>
+<li>直布罗陀<span>350</span></li>
+<li>希腊<span>30</span></li>
+<li>格林纳达<span>1809</span></li>
+<li>关岛<span>1671</span></li>
+<li>危地马拉<span>502</span></li>
+<li>几内亚<span>224</span></li>
+<li>圭亚那<span>592</span></li>
+<li>海地<span>509</span></li>
+<li>洪都拉斯<span>504</span></li>
+<li>香港<span>852</span></li>
+<li>匈牙利<span>36</span></li>
+<li>冰岛<span>354</span></li>
+<li>印度<span>91</span></li>
+<li>印度尼西亚<span>62</span></li>
+<li>伊朗<span>98</span></li>
+<li>伊拉克<span>964</span></li>
+<li>爱尔兰<span>353</span></li>
+<li>以色列<span>972</span></li>
+<li>意大利<span>39</span></li>
+<li>科特迪瓦<span>225</span></li>
+<li>牙买加<span>1876</span></li>
+<li>日本<span>81</span></li>
+<li>约旦<span>962</span></li>
+<li>柬埔寨<span>855</span></li>
+<li>哈萨克斯坦<span>327</span></li>
+<li>肯尼亚<span>254</span></li>
+<li>韩国<span>82</span></li>
+<li>科威特<span>965</span></li>
+<li>吉尔吉斯坦<span>331</span></li>
+<li>老挝<span>856</span></li>
+<li>拉脱维亚<span>371</span></li>
+<li>黎巴嫩<span>961</span></li>
+<li>莱索托<span>266</span></li>
+<li>利比里亚<span>231</span></li>
+<li>利比亚<span>218</span></li>
+<li>列支敦士登<span>423</span></li>
+<li>立陶宛<span>370</span></li>
+<li>卢森堡<span>352</span></li>
+<li>澳门<span>853</span></li>
+<li>马达加斯加<span>261</span></li>
+<li>马拉维<span>265</span></li>
+<li>马来西亚<span>60</span></li>
+<li>马尔代夫<span>960</span></li>
+<li>马里<span>223</span></li>
+<li>马耳他<span>356</span></li>
+<li>马里亚那群岛<span>1670</span></li>
+<li>马提尼克<span>596</span></li>
+<li>毛里求斯<span>230</span></li>
+<li>墨西哥<span>52</span></li>
+<li>摩尔多瓦<span>373</span></li>
+<li>摩纳哥<span>377</span></li>
+<li>蒙古<span>976</span></li>
+<li>蒙特塞拉特岛<span>1664</span></li>
+<li>摩洛哥<span>212</span></li>
+<li>莫桑比克<span>258</span></li>
+<li>纳米比亚<span>264</span></li>
+<li>瑙鲁<span>674</span></li>
+<li>尼泊尔<span>977</span></li>
+<li>荷属安的列斯<span>599</span></li>
+<li>荷兰<span>31</span></li>
+<li>新西兰<span>64</span></li>
+<li>尼加拉瓜<span>505</span></li>
+<li>尼日尔<span>227</span></li>
+<li>尼日利亚<span>234</span></li>
+<li>朝鲜<span>850</span></li>
+<li>挪威<span>47</span></li>
+<li>阿曼<span>968</span></li>
+<li>巴基斯坦<span>92</span></li>
+<li>巴拿马<span>507</span></li>
+<li>巴布亚新几内亚<span>675</span></li>
+<li>巴拉圭<span>595</span></li>
+<li>秘鲁<span>51</span></li>
+<li>菲律宾<span>63</span></li>
+<li>波兰<span>48</span></li>
+<li>法属玻利尼西亚<span>689</span></li>
+<li>葡萄牙<span>351</span></li>
+<li>波多黎各<span>1787</span></li>
+<li>卡塔尔<span>974</span></li>
+<li>留尼旺<span>262</span></li>
+<li>罗马尼亚<span>40</span></li>
+<li>俄罗斯<span>7</span></li>
+<li>圣卢西亚<span>1758</span></li>
+<li>圣文森特岛<span>1784</span></li>
+<li>东萨摩亚(美)<span>684</span></li>
+<li>西萨摩亚<span>685</span></li>
+<li>圣马力诺<span>378</span></li>
+<li>圣多美和普林西比<span>239</span></li>
+<li>沙特阿拉伯<span>966</span></li>
+<li>塞内加尔<span>221</span></li>
+<li>塞舌尔<span>248</span></li>
+<li>塞拉利昂<span>232</span></li>
+<li>新加坡<span>65</span></li>
+<li>斯洛伐克<span>421</span></li>
+<li>斯洛文尼亚<span>386</span></li>
+<li>所罗门群岛<span>677</span></li>
+<li>索马里<span>252</span></li>
+<li>南非<span>27</span></li>
+<li>西班牙<span>34</span></li>
+<li>斯里兰卡<span>94</span></li>
+<li>圣卢西亚<span>1758</span></li>
+<li>圣文森特<span>1784</span></li>
+<li>苏丹<span>249</span></li>
+<li>苏里南<span>597</span></li>
+<li>斯威士兰<span>268</span></li>
+<li>瑞典<span>46</span></li>
+<li>瑞士<span>41</span></li>
+<li>叙利亚<span>963</span></li>
+<li>台湾省<span>886</span></li>
+<li>塔吉克斯坦<span>992</span></li>
+<li>坦桑尼亚<span>255</span></li>
+<li>泰国<span>66</span></li>
+<li>多哥<span>228</span></li>
+<li>汤加<span>676</span></li>
+<li>特立尼达和多巴哥<span>1809</span></li>
+<li>突尼斯<span>216</span></li>
+<li>土耳其<span>90</span></li>
+<li>土库曼斯坦<span>993</span></li>
+<li>乌干达<span>256</span></li>
+<li>乌克兰<span>380</span></li>
+<li>阿拉伯联合酋长国<span>971</span></li>
+<li>英国<span>44</span></li>
+<li>美国<span>1</span></li>
+<li>乌拉圭<span>598</span></li>
+<li>乌兹别克斯坦<span>233</span></li>
+<li>委内瑞拉<span>58</span></li>
+<li>越南<span>84</span></li>
+<li>也门<span>967</span></li>
+<li>南斯拉夫<span>381</span></li>
+<li>津巴布韦<span>263</span></li>
+<li>扎伊尔<span>243</span></li>
+<li>赞比亚<span>260</span></li>
+</ul>
+</div>
+<div class="clear"></div>
+<span id="btn_tj">提交</span>
+</div>
+</div>
+
+
+<div class="zz"></div>
+
+<script>
+var zid=0;
+var zidx=0;
+var outside=0;
+var ifSScroll=true;
+
+function addScreenScroll(){
+    document.addEventListener("touchmove",function(e){
+        if(!ifSScroll){
+            e.preventDefault();
+            e.stopPropagation();
+        }
+    },false);
+}
+
+function dhSwipe(){
+	var nStartX;
+	var nMoveX;
+	var nEndX;
+	var nLeft=0;
+	var len=$('.jiemulan ul li').length;
+	$('.jiemulan ul').width((len*100/4)+"%");
+	$('.jiemulan ul li').width((100/len)+"%");
+
+    document.getElementById('hddh').addEventListener('touchstart',function(e){
+		nStartX=e.targetTouches[0].pageX;
+		});
+	document.getElementById('hddh').addEventListener('touchmove',function(e){
+		nMoveX=e.targetTouches[0].pageX;
+        ifSScroll=false;
+		if($('#hddh').offset().left>=-$('#hddh').width()*(len-4)/len && $('#hddh').offset().left<=0){
+		$('#hddh').css('left',nLeft+(nMoveX-nStartX)+'px');
+		}
+		});
+	document.getElementById('hddh').addEventListener('touchend',function(e){
+		nLeft+=(nMoveX-nStartX);
+        ifSScroll=true;
+		if($('#hddh').offset().left<-$('#hddh').width()*(len-4)/len){
+			$('#hddh').css('left',-$('#hddh').width()*(len-4)/len);
+			nLeft=-$('#hddh').width()*(len-4)/len;
+		}
+		if($('#hddh').offset().left>0){
+			$('#hddh').css('left',0);
+			nLeft=0;
+		}
+		});
+}
+
+function dhClick(){
+	$('.btn_dh').click(function(){
+		if($('.box_dh').css('display')=="none"){
+			$('.box_dh').fadeIn(300);
+		}else{
+			$('.box_dh').fadeOut(300);
+		}
+	});
+}
+
+function ssClick(){
+	$('.btn_nr').click(function(){
+		$('.btn_ly').removeClass("cur");
+		$('.shengshi').fadeOut(300);
+		$('.btn_ly').css({'background':'#ededed','color':'#999'});
+		$(this).css({'background':'#288ad7','color':'#fff'});
+	})
+	
+	$('.btn_ly').click(function(){
+		$('.shengshi').fadeIn(300);
+		$(this).addClass("cur");
+		$('.btn_nr').css({'background':'#ededed','color':'#999'});
+		$(this).css({'background':'#288ad7','color':'#fff'});
+	})
+}
+
+function llCLick(){
+	$('.shengshi li').each(function() {
+		$(this).click(function(){
+			$('#searchword').val($(this).text());
+			$('.shengshi').hide();
+		});
+	});
+}
+
+function search_check() {
+
+	    $(".r_btn").click(function(){
+				if($("#searchword").val()=="请输入关键词"){
+					alert("请输入搜索内容");
+					return false
+					}
+				if($("#searchword").val()==""){
+					alert("请输入搜索内容");
+					return false
+					}
+				 if($(".btn_ly").hasClass("cur")){
+				   window.open("http://116.213.200.40/wyzbwap/results_df.shtml?"+encodeURI($("#searchword").val()),'_blank');
+					return false 
+					}
+				   window.open("http://116.213.200.40/wyzbwap/results.shtml?"+encodeURI($("#searchword").val()) ,'_blank') 
+		})
+}
+
+function dz(k,id){
+	$.ajax({type:"post",url:"/vote/zan",data:"id="+id+"&tel="+encodeURIComponent($('.pn').val())+"&outside="+encodeURI(outside),success:function(data){
+	    var json=eval("("+data+")");
+		if(json.result==0){
+			$(".zz").hide();
+			$(".box_tp").hide();
+		    alert("提交成功！感谢您的参与，预祝您获奖！");
+		
+		    var m=$('.heart_box').eq(k).find('b').eq(0).text();
+		    m++;
+		    $('.heart_box').eq(k).find('b').eq(0).text(m);
+
+		 }else if(json.result==2){
+			$(".zz").hide();
+			$(".box_tp").hide();
+			alert("30秒内只允许投一次！");
+		 }else if(json.result==8){
+			$(".zz").hide();
+			$(".box_tp").hide();
+			alert("每个手机号只能投票一次！");
+		 }
+	}});
+}
+
+function gnwSel(){
+	    $("#selnw").click(function(){
+			if($(".selnwul").css("display")=="none"){
+			$(".selnwul").show();
+		    }else{
+				$(".selnwul").hide();
+			}
+			
+		});
+	    
+		$("#guojia").click(function(){
+			$(".box_toupiao .dt").show();
+		});
+		
+		$(".gjgb").click(function(){
+			$(".box_toupiao .dt").hide();
+		});
+		
+		$(".selnwul li").each(function(){		
+			$(this).mouseenter(function(){
+				$(this).addClass("on").siblings().removeClass("on");
+			});
+		})
+		
+		$(".guojiaul li").each(function(){		
+			$(this).mouseenter(function(){
+				$(this).addClass("on").siblings().removeClass("on");
+			});
+			
+			$(this).click(function(){
+				$(".box_toupiao .dt").hide();
+				$(".quhao").text($(this).find("span").text());
+			});
+		})
+		
+		$(".selnwul li").each(function(){		
+			$(this).click(function(){
+				$("#selnw").text($(this).text());
+				$(this).addClass("sel").siblings().removeClass("sel");
+				$(".selnwul").hide();
+				if($(".selnwul").find("li").eq(1).hasClass("sel")){
+					$("#guojia").show();
+					$(".jiahao").show();
+					$(".quhao").show();
+					$(".pn").css({"margin-left":"98px","width":"90px"});
+				}else{
+					$("#guojia").hide();
+					$(".jiahao").hide();
+					$(".quhao").hide();
+					$(".pn").css({"margin-left":"5px","width":"182px"});
+				}
+			});
+		})
+}
+
+
+function wxClose(){
+	$(".gb").click(function(){
+		$(".box_tp").hide();
+		$(".zz").hide();
+	})
+}
+
+function tiJiao(){
+	$('#btn_tj').click(function(){
+		var vt=$('.pn').val();
+		var vtNew=$(".quhao").text()+'+'+$('.pn').val();
+		
+		if($(".selnwul").find("li").eq(0).hasClass("sel")){
+			var str= /^(1[3|4|5|7|8])\d{9}$/;
+			
+			if(!vt.match(str))     
+		    { 
+			    alert("请输入正确的11位国内手机号");
+			    return false;
+	        }
+			
+			outside=0;
+		}else{
+			var str=/^[0-9]+[\\+][0-9]+$/
+			if($(".quhao").text()==0000){
+				alert("请选择国外区号");
+				return false;
+			}
+		    if(vtNew.length<9||!vtNew.match(str)||vtNew.length>18)     
+		    { 
+			    alert("请输入正确手机号");
+			    return false	
+		    }
+			$('.pn').val(vtNew);
+			outside=1;
+		}
+		 dz(zidx,zid);
+	});
+}
+
+function dianZan(){
+	$('.heart_box').each(function(k) {
+		$(this).click(function(){
+			var id=$(this).attr("rel");
+			var idx=k;
+			zid=id;
+			zidx=k;
+
+				$(".zz").width($(window).width());
+		        $(".zz").height($(document).height());
+			    $(".zz").show();
+			    $(".box_tp").show();
+				$(".quhao").text(0000);
+				$('.pn').val("手机号");
+		})
+	});
+}
+
+function addJieguo(){
+	var href= window.location.href;
+	var sn=href.split("?");
+	var s=decodeURI(sn[1]);
+	$(".tit span").text(s);
+	if(sn[1]==""){
+		$(".list").find("ul").html("<div class='etp' style='font-size:14px; line-height:30px; text-align:center; color:#288ad7;'>没有符合的内容!</div>")
+		}
+
+	var id="";
+	var xi="attention";
+    for (var i in list['dataList']) {
+       if (list['dataList'][i].sly.indexOf(decodeURI(sn[1])) != -1) {
+           id+=list['dataList'][i].id+";";
+       }
+    }
+	var ctst="";
+	$.ajax({
+				type:"post",
+				url:"/vote/catidsort",
+				data:"catid="+id+"&sort="+xi,
+				success:function(data){
+				$(".list").append("<div  class='box_list_zz'><img src='http://www.kaiwind.com/images/cast/images/indicator.gif' /></div>")
+				var json=eval("("+data+")");
+				for (var i=0;i<json.length;i++){
+    ctst+='<li rel="'+json[i].id+'" id="'+json[i].categoryid+'"><a target="_blank" href=""><img src="" /></a>    <p class="title"><a href=""></a></p><p class="zyjz"></p><p class="kaifengzei"></p><div class="bottom_box clearfix"><span class="eye_box fl">'+json[i].attention+'</span><span rel="'+json[i].id+'" class="heart_box fl"><b>'+json[i].zan+'</b><b class="xinjiaone">+1</b></span></div></li>';
+		}
+		$(".list").find("ul").hide();
+		$(".list").find("ul").fadeIn(300);
+		$(".list").find("ul").html(ctst);
+	    $(".list").find("li").each(function(j){
+       for (var c=0;c<list.dataList.length;c++){
+        if($(this).attr("id")==list.dataList[c].id){
+		var snck=c;
+		  $(".list").find("li").eq(j).find("img").attr("src",list.dataList[snck].src);
+		  $(".list").find("li").eq(j).find("a").attr("href",list.dataList[snck].href);
+          $(".list").find("li").eq(j).find(".title").attr("href",list.dataList[snck].href);
+		  $(".list").find("li").eq(j).find(".title").find("a").text(list.dataList[snck].title);
+          $(".list").find("li").eq(j).find(".zyjz").text(list.dataList[snck].zy);
+		  $(".list").find("li").eq(j).find(".kaifengzei").html("<font color='red'>"+list.dataList[snck].sly+"</font>");
+           return 
+           }
+         }
+		 
+        })
+        
+	    dianZan();
+	    gnwSel();
+		setTimeout("$('.box_list_zz').remove()", 200 );
+		if($(".list ul").html()==""){
+			$(".list ul").html("<div class='etp' style='font-size:14px; line-height:30px; text-align:center; color:#288ad7;'>没有符合的内容!</div>")
+			}
+		
+				}
+			})
+		
+	}
+
+function getMessage(){
+	$.ajax({type:"post",url:"/vote/all",async:false,success:function(data){
+	    var json=eval("("+data+")");
+        t1=json;
+	}});
+}
+
+$(function(){
+	  getMessage();
+	  addJieguo();
+	  dhSwipe();
+	  dhClick()
+	  ssClick();
+	  llCLick();
+	  search_check();
+	  dianZan();
+	  tiJiao();
+	  wxClose();
+      addScreenScroll();
+})
+
+</script>
+
+</body></html>
